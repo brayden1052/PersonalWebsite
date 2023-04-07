@@ -17,8 +17,14 @@ nav{
     margin: auto;
     padding: 20px 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
 
 nav ul li{
     display: inline-block;
@@ -30,4 +36,8 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: orange;
 }
